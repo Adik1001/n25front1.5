@@ -2,7 +2,6 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, set, onValue, off, onDisconnect, remove } from 'firebase/database';
 
-// Замените эти значения на ваши из Firebase Console
 const firebaseConfig = {
   apiKey: "AIzaSyC8BdIRr-FcmVxoPPi1GT7DhYzc7eQLI6o",
   authDomain: "multiplayer-game-2e92c.firebaseapp.com",
@@ -13,9 +12,7 @@ const firebaseConfig = {
   appId: "1:852559791171:web:bf2d0d2774da57482180f6",
 };
 
-// Инициализация Firebase
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
-// Экспорт функций для работы с базой данных
 export { database, ref, set, onValue, off, onDisconnect, remove };
