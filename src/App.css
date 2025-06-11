@@ -16,8 +16,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
-  /* Отключаем выделение текста для лучшего игрового опыта */
   * {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -25,7 +23,6 @@
     user-select: none;
   }
   
-  /* Убираем outline при фокусе на div'ах */
   div:focus {
     outline: none;
   }
